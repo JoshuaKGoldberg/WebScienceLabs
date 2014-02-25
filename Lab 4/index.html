@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Lab 4</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css">
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <link rel="stylesheet" type="text/css" href="default.css">
+    
+    <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+    <script src="linkify.js"></script>
+    <script src="default.js"></script>
+</head>
+<body>
+  <div id="page" data-role="page">
+
+    <header data-role="header">
+        <h1>Facebook Info Viewer</h1>
+    </header>
+
+    <div data-role="content" data-ajax="false">
+      <label for="basic"><h2>Facebook ID / Username:</h2></label>
+      <input id="search_input" type="text" name="name" id="basic" value=""  />
+    </div>
+    
+    <div data-role="content">
+      <div id="search_results">Give us the Facebook ID of the account you want information on. Do it, you won't.</div>
+    </div>
+
+    <!--<footer data-role="footer">
+        <h3>Web Science lab - Josh Goldberg</h3>
+    </footer>-->
+
+  </div>
+</body>
+</html>
